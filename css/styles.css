@@ -618,8 +618,6 @@ img {
     letter-spacing: 0.04em;
     color: var(--subtle-text);
 }
-/* .modal-form-name {
-} */
 .modal-input-box {
     position: relative;
 }
@@ -637,6 +635,7 @@ img {
     height: 40px;
     padding-left: 38px;
     border-radius: 4px;
+    background-color: transparent;
     outline: transparent;
     border-color: var(--accent-color);
     border: 1px solid rgba(46, 47, 66, 0.4);
