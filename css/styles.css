@@ -376,6 +376,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+/* second */
 .media{
     max-width: 264px;
     margin-bottom: 16px;
@@ -403,37 +404,39 @@ img {
 .ftr-second {
     margin-right: 80px;
 }
+/* third */
 .ftr-third {
     display: flex;
     flex-direction: column;
 }
 .ftr-submit-box {
     display: flex;
+    gap: 24px;
 }
 .ftr-input {
     width: 264px;
     height: 40px;
-    margin-right: 24px;
+    padding: 8px 16px;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: var(--first-main-color);
     background-color: inherit;
-    padding: 8px 16px;
     border: 1px solid var(--first-main-color);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
 }
 .ftr-input::placeholder {
-    font-size: 12px;
-    line-height: 2;
-    letter-spacing: 0.04em;
     color: var(--first-main-color);
 }
 .ftr-submit {
     display: flex;
+    justify-content: center;
     align-items: center;
     text-align: left;
-    width: 165px;
+    min-width: 165px;
     padding: 8px 24px;
-    gap: 16px;
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -451,6 +454,7 @@ img {
 }
 .icon-ftr-submit {
     display: block;
+    margin-left: 16px;
     fill: var(--first-main-color);
 }
 /* portfolio */
