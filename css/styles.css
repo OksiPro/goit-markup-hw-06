@@ -604,7 +604,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--title-text-color);
 }
-.modal-form {
+.form-box {
     padding: 0px;
     margin-bottom: 8px;
 }
