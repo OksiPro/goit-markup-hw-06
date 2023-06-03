@@ -698,7 +698,7 @@ img {
     background-position: 50% 50%;
 } */
 .modal-checkbox-text {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     font-size: 12px;
     line-height: 1.17;
